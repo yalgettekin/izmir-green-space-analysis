@@ -21,21 +21,22 @@ This repository contains the **first phase** of the İzmir Green Space Accessibi
 - Measuring **proximity to green spaces** using spatial analysis.  
 - Identifying **gaps in urban green coverage** for future urban planning improvements.  
 
-## 📂 **Project Structure**
-📁 data/            # Contains raw and processed data
-📁 notebooks/       # Jupyter notebooks for analysis
-📁 src/            # Python scripts for processing
-📁 outputs/        # Results and final outputs
-📄 README.md       # Project documentation
+## 🗂️ Data Source
+- İzmir Metropolitan Municipality Open Data Portal: [Access the Data](https://acikveri.bizizmir.com/en/dataset/kuzey-guney-alani-park-sayilari)
 
-## 🛠 **Technologies Used**
-- **Python** (GeoPandas, Pandas, Geopy, Shapely)  
-- **QGIS** (for spatial visualization and analysis)  
-- **OpenStreetMap** (for geocoding and mapping)  
-## 📢 **Acknowledgment**  
-This dataset was obtained from the **[İzmir Open Data Portal](https://acikveri.bizizmir.com/en/dataset/kuzey-guney-alani-park-sayilari)**. The study aims to contribute to **data-driven urban planning** by evaluating green space accessibility in İzmir.  
+## 🛠️ Tools & Libraries Used
+- Python (Pandas, Matplotlib, Seaborn, OpenPyXL)
+- Jupyter Notebook
 
+## 📊 Outputs
+- Green Spaces CSV formats with coordinates,
+- Green Spaces Shapefile, GeoJSON, and GPKG formats.
+- PDF Report (available in the `outputs/` folder).
 
-✅ Status: 🟢 Phase 1 Completed – Preparing for Spatial Analysis
-📅 Last Updated: February 2025
-🚀 Let’s make İzmir greener and more accessible!
+📄 Project Report
+[View PDF Report](https://github.com/yalgettekin/izmir-green-space-analysis/blob/main/outputs/geocoding_green_areas.pdf)
+
+Naile Yalgettekin
+
+[GitHub](https://github.com/yalgettekin)
+[LinkedIn](https://www.linkedin.com/in/naile-yalgettekin-2b8a43100/)
